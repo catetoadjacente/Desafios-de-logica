@@ -4,3 +4,7 @@ Objetivo: Desenvolver um programa que receba o peso corporal de Lucas e calcule 
 Regras: A recomendação é de 15 ml de água por quilo de peso. Cada copo utilizado por Lucas tem capacidade para 250 ml. 
 O resultado deve indicar quantos copos inteiros são necessários para atingir a meta.
 '''
+peso = int(input('insira o peso'))
+meta = peso * 15
+copos_inteiros = meta/250
+print(round(copos_inteiros))
