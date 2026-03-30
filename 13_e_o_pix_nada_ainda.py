@@ -7,6 +7,6 @@ horas_trabalhadas = int(input('Digite quantas horas foram trabalhadas '))
 ganho = horas_trabalhadas * 60.20
 if horas_trabalhadas > 20:
     hora_extra = horas_trabalhadas- 20
-    print('o competidor p, recebeu', (hora_extra*(30/100)))
+    print('o competidor p, recebeu', (hora_extra*60.20*0.30) + ganho)
 else:
-    print('o competidor p recebeu', ganho)     
+    print('o competidor p recebeu', ganho)   

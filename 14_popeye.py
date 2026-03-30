@@ -6,3 +6,14 @@ Regras: Validação de graduação: O sistema deve aceitar apenas as graduaçõe
 Avaliação do tempo de prova: Se o tempo for maior que 40 segundos, o desempenho é considerado muito ruim. 
 Se o tempo estiver entre 30 e 40 segundos (inclusive), o desempenho está bom, mas pode melhorar. Se o tempo for menor que 30 segundos, o desempenho é excelente.
 '''
+graduação = input('Digite a graduação do militar ')
+tempo = int(input('tempo que o militar levou para concluir a prova '))
+graduaçoes_validas = ["marinheiro", "cabo", "terceiro-sargento", "segundo-sargento", "primeiro-sargento", "suboficial", "segundo-tenente", "primeiro-tenente", "capitão-tenente"]
+if graduação not in graduaçoes_validas:
+    print("graduação não válida" )
+if tempo > 40:
+    print('Desempenho muito ruim.')
+elif 30 <= tempo <= 40:
+    print('Desempenho bom, mas pode melhorar.')
+else:
+    print('Desempenho excelente.')
