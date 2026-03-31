@@ -2,4 +2,4 @@
 Desenvolva um sistema que recebe a quantidade de bateria atual e retorna quantos minutos de vida o celular de José ainda tem.
 '''
 porcentagem_atual=int(input('quantos porcento ainda há de bateria?'))
-print('ainda há',porcentagem_atual * 5, 'minutos de vida')
+print(f'ainda há{porcentagem_atual} * 5 minutos de vida')

@@ -3,3 +3,7 @@ Sabe-se que o terreno tem formato retangular perfeito (ou seja, lados opostos ig
 Objetivo: Desenvolver um programa que receba os comprimentos dos dois lados do terreno e calcule quantos metros de cerca serão necessários para cercar toda a área.
 Regras: O terreno é um retângulo. A quantidade de cerca necessária corresponde ao perímetro do retângulo.
 '''
+base = int(input('insira o valor da base'))
+altura = int(input('insira o valor da altura'))
+perimetro = base*2 + altura*2
+print(perimetro)

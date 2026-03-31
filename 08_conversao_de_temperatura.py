@@ -4,5 +4,5 @@ Desenvolva um sistema que recebe a temperatura em Fahrenheit e responda a quanto
 Fórmula de conversão: ºC = (ºF-32)/1.8
 '''
 TF = int(input('digite a temperatura'))
-C = (TF - 32)/9
+C = (TF - 32)/1.8
 print('TF em graus Celsius é', C)

@@ -2,3 +2,9 @@
 Objetivo: Desenvolver um programa que receba a idade de um participante e informe se ele é maior de idade.
 Regra: Considera-se maior de idade quem tem 18 anos ou mais.
 '''
+idade = int(input('insira a idade do participante'))
+if idade>18:
+    print('pode particpar')
+else:
+    print('não pode participar')  
+      
