@@ -11,9 +11,8 @@ volume_am2 = int(input('volume amaciante 2 '))
 preco_por_litro_am1 = valor_am1 / volume_am1
 preco_por_litro_am2 = valor_am2 / volume_am2
 if preco_por_litro_am1 < preco_por_litro_am2:
-    print('o amaciante', am1, 'é mais barato')
+    print(f'o amaciante {am1} é mais barato')
 elif preco_por_litro_am2 < preco_por_litro_am1:
-    print('o amaciante', am2, 'é mais barato')
+    print(f'o amaciante {am2} é mais barato')
 else:
     print('ambos os amaciantes possuem o mesmo valor')
-

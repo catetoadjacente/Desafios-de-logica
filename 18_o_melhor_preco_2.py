@@ -7,8 +7,8 @@ am2 = input('nome amaciante 2')
 valam1 = int(input('valor amaciante 1'))
 valam2 = int(input('valor amaciante 2'))
 if valam1 < valam2:
-    print('o amaciante', am1, 'é mais barato')
+    print(f'o amaciante {am1} é mais barato')
 elif valam2 < valam1:
-    print('o amaciante', am2, 'é mais barato')
+    print(f'o amaciante {am2} é mais barato')
 else:
     print('ambos os amaciantes possuem o mesmo valor')
